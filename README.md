@@ -33,7 +33,7 @@ The dataset is generated using `sklearn.datasets.make_classification` with two f
 ### 2. Perceptron Algorithm
 The perceptron algorithm is implemented based on the explanation and updates outlined on Wikipedia's Perceptron page.
 
-#### Includes:
+  Includes:
 - **Step Function**: Produces binary outputs for classification.
 - **Weight Initialization**: Initializes weights randomly for all features.
 - **Error Calculation**: Computes the difference between predicted and actual labels.
@@ -46,4 +46,4 @@ Utilizes `matplotlib` to plot:
 - The decision boundary learned by the perceptron.
 
 # Example 
-![Alt text](path_to_image)
+![Results](Perceptron.png)
