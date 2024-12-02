@@ -62,7 +62,6 @@ intercept = -intercept/coeffs[1]
 
 # Printing the slope and intercept of the line 
 print(f"Slope : {slope} , Intercept : {intercept}")
-plt.plot(loss_list)
 
 #Plotting the decision boundary 
 x_vals = np.linspace(D[:, 0].min(), D[:, 0].max(), 100)
